@@ -13,6 +13,6 @@ void setup(void) {
 }
 
 void loop(void) {
-  Seril.print("ping");
+  Serial.print("ping");
   delay(500);
 }

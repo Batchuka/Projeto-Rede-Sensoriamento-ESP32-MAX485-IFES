@@ -34,7 +34,7 @@ void loop(void) {
     // adicionamos o terminador para transformar o buffer em string
     buffer[i++] ='\0';
     // se a string formada for 'ping', é uma chamada para piscar o LED
-    if(strcmp(buffer,'ping'))
+    if(strcmp(buffer,"ping"))
     {
       // chamamos a função de escrita para a porta 13 (onde está o LED). Escreveremos 'state'
       digitalWrite(13,state);
